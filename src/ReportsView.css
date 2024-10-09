@@ -1,0 +1,19 @@
+/* ReportsView.css */
+.reports-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #e0f7fa;
+    
+  }
+  
+  .reports-table th, .reports-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    background-color:skyblue;
+  }
+  
+  .reports-table th {
+    background-color: #e0f7fa;
+  }
+  

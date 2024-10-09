@@ -1,0 +1,29 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    flex-direction: column; /* Column layout */
+    width: 200px; /* Fixed width for the navbar */
+    background-color: #f0f0f0; /* Background color */
+    padding: 10px; /* Padding around the navbar */
+    border-right: 1px solid #ccc; /* Right border for separation */
+  }
+  
+  .nav-item {
+    display: flex; /* Flexbox for icon and text alignment */
+    align-items: center; /* Center items vertically */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    margin: 10px 0; /* Space between items */
+    padding: 5px; /* Padding inside each nav item */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth background color transition */
+    color: blue;
+  }
+  
+  .nav-item:hover {
+    background-color: #e0e0e0; /* Change background on hover */
+  }
+  
+  .nav-item span {
+    margin-left: 8px; /* Space between icon and text */
+  }
+  

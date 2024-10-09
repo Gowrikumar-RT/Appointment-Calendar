@@ -1,0 +1,22 @@
+/* App.css */
+.app {
+  display: flex; /* Use flexbox for layout */
+  height: 100vh; /* Full height of the viewport */
+}
+
+.navbar {
+  width: 250px; /* Fixed width for the navbar */
+  background-color: #f0f4ff; /* Background color for navbar */
+  padding: 20px; /* Padding inside navbar */
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  display: flex; /* Ensure it behaves as a flex container */
+  flex-direction: column; /* Arrange items vertically */
+  height: 100%; /* Full height */
+}
+
+.content {
+  flex: 1; /* Allow content area to take remaining space */
+  padding: 20px; /* Padding inside content area */
+  background-color: #ffffff; /* Background color for content */
+  overflow-y: auto; /* Enable vertical scrolling if content overflows */
+}

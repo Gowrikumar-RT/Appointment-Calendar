@@ -1,0 +1,51 @@
+/* CalendarView.css */
+
+/* Existing styles */
+
+.calendar-view {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: flex-start; /* Align contents to the top */
+    height: 100vh; /* Full height to center vertically */
+    background-color: #e0f7fa; /* Light blue background color */
+    padding: 20px;
+}
+
+  
+  h2 {
+    margin-bottom: 20px;
+    text-align: center; /* Center the title */
+    color: green;
+  }
+  
+  .react-calendar {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(151, 4, 4, 0.928); /* Subtle shadow for depth */
+    margin-top: 40px; /* Add margin to create space above the calendar */
+  }
+  
+  /* Custom styles for dates */
+  .react-calendar__tile {
+    color: #333; /* Default text color for dates */
+  }
+  
+  .react-calendar__tile--active {
+    background-color: #007bff; /* Background color for the selected date */
+    color: white; /* Text color for the selected date */
+  }
+  
+  .react-calendar__tile--hover {
+    background-color: blue; /* Background color for hovered date */
+  }
+  
+  .react-calendar__tile--now {
+    background-color: #e0f7fa; /* Light background color for today's date */
+    border-radius: 50%; /* Make today’s date circular */
+  }
+  
+  /* Additional styles for weekend dates */
+  .react-calendar__tile--weekend {
+    color: #ff5722; /* Color for weekend dates */
+  }
